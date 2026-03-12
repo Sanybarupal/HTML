@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTML Basic Attributes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1 id="main-title" class="title" title="Main Heading">HTML Basic Attributes</h1>
+</header>
+
+<main>
+
+<!-- id , class , title -->
+<p id="intro" class="highlight" title="Introduction paragraph">
+This paragraph demonstrates basic HTML attributes like id, class, and title.
+</p>
+
+<!-- class example -->
+<p class="highlight">
+Another paragraph with class attribute.
+</p>
+
+<!-- style attribute -->
+<p style="color:blue;">
+This paragraph uses inline style attribute.
+</p>
+
+<!-- draggable + contenteditable -->
+<p draggable="true" contenteditable="true">
+You can drag and edit this text.
+</p>
+
+<!-- data attribute -->
+<p data-user="sandeep">
+Custom data attribute example.
+</p>
+
+<!-- image attributes -->
+<img 
+src="https://via.placeholder.com/150"
+alt="Placeholder image"
+title="Sample image"
+width="150"
+height="150"
+loading="lazy"
+>
+
+<!-- link attributes -->
+<a 
+href="https://www.example.com"
+target="_blank"
+title="Opens in new tab"
+rel="noopener"
+>
+Link with target and title attributes
+</a>
+
+<br><br>
+
+<!-- form attributes -->
+<form action="#" method="post" autocomplete="on">
+
+<label for="name">Name</label>
+<input 
+type="text"
+id="name"
+name="username"
+placeholder="Enter your name"
+required
+maxlength="20"
+>
+
+<br><br>
+
+<label for="email">Email</label>
+<input 
+type="email"
+id="email"
+name="email"
+placeholder="Enter email"
+required
+>
+
+<br><br>
+
+<input type="submit" value="Submit">
+
+</form>
+
+<br>
+
+<!-- table attributes -->
+<table border="1">
+
+<tr>
+<th>Product</th>
+<th>Price</th>
+</tr>
+
+<tr>
+<td colspan="2">Merged Cell Example</td>
+</tr>
+
+</table>
+
+<br>
+
+<!-- video attributes -->
+<video width="320" height="240" controls muted>
+<source src="sample.mp4" type="video/mp4">
+</video>
+
+</main>
+
+<footer>
+<p>Examples of HTML attributes</p>
+</footer>
+
+</body>
+</html>

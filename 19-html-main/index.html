@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Main Element - HTML Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#main-content" class="skip-link">Skip to main content</a>
+        <h1>HTML Tutorial</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tutorials">Tutorials</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <h1>Understanding the &lt;main&gt; Element</h1>
+        
+        <article>
+            <h2>What is the &lt;main&gt; Element?</h2>
+            <p>The <code>&lt;main&gt;</code> element specifies the main content of a document. It represents the dominant content of the <code>&lt;body&gt;</code> and should only appear once per page.</p>
+            <p><strong>Key Point:</strong> The <code>&lt;main&gt;</code> element is semantically important for accessibility and SEO.</p>
+        </article>
+
+        <article>
+            <h2>Basic Syntax</h2>
+            <pre><code>&lt;main&gt;
+    &lt;h1&gt;Page Title&lt;/h1&gt;
+    &lt;p&gt;Main content goes here...&lt;/p&gt;
+&lt;/main&gt;</code></pre>
+        </article>
+
+        <article>
+            <h2>Example 1: Simple Blog Post</h2>
+            <p>The following structure shows a typical blog page with a header, navigation, main content, and footer. Comments in the code illustrate where the <code>&lt;main&gt;</code> sits and how the page is organized.</p>
+            <pre><code>&lt;!-- page structure for a basic blog --&gt;
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;h1&gt;My Blog&lt;/h1&gt;
+        &lt;nav&gt;...&lt;/nav&gt;   &lt;!-- main site navigation --&gt;
+    &lt;/header&gt;
+    
+    &lt;main&gt;                 &lt;!-- primary content area --&gt;
+        &lt;article&gt;
+            &lt;h2&gt;Blog Post Title&lt;/h2&gt;
+            &lt;p&gt;Blog post content...&lt;/p&gt;
+            &lt;!-- each post would be an <article> inside main --&gt;
+        &lt;/article&gt;
+    &lt;/main&gt;
+    
+    &lt;footer&gt;...&lt;/footer&gt;  &lt;!-- site footer with copyright, links, etc. --&gt;
+&lt;/body&gt;</code></pre>
+            <p>This layout ensures screen readers and search engines focus on the blog articles first.</p>
+        </article>
+
+        <article>
+            <h2>Example 2: E-Commerce Product Page</h2>
+            <p>On a product page, the <code>&lt;main&gt;</code> contains the product details. Notice how sections are used for logical grouping and accessible labeling.</p>
+            <pre><code>&lt;main&gt;
+    &lt;section aria-labelledby="product-title"&gt;
+        &lt;h1 id="product-title"&gt;Product Name&lt;/h1&gt;
+        &lt;img src="product.jpg" alt="Product image"&gt;
+        &lt;p&gt;Price: $99.99&lt;/p&gt;
+        &lt;button&gt;Add to Cart&lt;/button&gt;
+    &lt;/section&gt;
+    
+    &lt;section&gt;
+        &lt;h2&gt;Product Description&lt;/h2&gt;
+        &lt;p&gt;Detailed description...&lt;/p&gt;
+    &lt;/section&gt;
+&lt;/main&gt;</code></pre>
+            <p>The <code>aria-labelledby</code> attribute helps assistive technologies understand the product section.</p>
+        </article>
+
+        <article>
+            <h2>Example 3: News Site Homepage</h2>
+            <p>A news website often has multiple featured stories; <code>&lt;main&gt;</code> holds those articles while navigation remains outside the main area.</p>
+            <pre><code>&lt;main&gt;
+    &lt;h1&gt;Top Stories&lt;/h1&gt;
+    &lt;article&gt;
+        &lt;h2&gt;Story 1&lt;/h2&gt;
+        &lt;p&gt;Summary of story 1...&lt;/p&gt;
+    &lt;/article&gt;
+    &lt;article&gt;
+        &lt;h2&gt;Story 2&lt;/h2&gt;
+        &lt;p&gt;Summary of story 2...&lt;/p&gt;
+    &lt;/article&gt;
+&lt;/main&gt;</code></pre>
+            <p>Using multiple <code>&lt;article&gt;</code> elements keeps the content modular and accessible.</p>
+        </article>
+
+        <article>
+            <h2>Important Rules</h2>
+            <ul>
+                <li>✓ Use only ONE <code>&lt;main&gt;</code> element per page</li>
+                <li>✓ Place it as a direct child of <code>&lt;body&gt;</code></li>
+                <li>✓ Cannot nest inside <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;header&gt;</code>, or <code>&lt;nav&gt;</code></li>
+                <li>✓ Supports "Skip to main content" links for accessibility</li>
+            </ul>
+        </article>
+
+        <article>
+            <h2>Accessibility Best Practice</h2>
+            <p>Always include a "Skip to main content" link at the beginning of your page:</p>
+            <pre><code>&lt;body&gt;
+    &lt;a href="#main-content" class="skip-link"&gt;Skip to main content&lt;/a&gt;
+    &lt;nav&gt;...&lt;/nav&gt;
+    &lt;main id="main-content"&gt;...&lt;/main&gt;
+&lt;/body&gt;</code></pre>
+        </article>
+    </main>
+
+    <aside>
+        <h2>Quick Facts</h2>
+        <ul>
+            <li>One per page maximum</li>
+            <li>Browser Support: All modern browsers</li>
+            <li>Semantic HTML5 element</li>
+            <li>Improves accessibility</li>
+            <li>Helps with SEO</li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>&copy; 2024 HTML Tutorial | Learn HTML Semantics | <a href="#about">About Us</a></p>
+    </footer>
+</body>
+</html>

@@ -22,3 +22,12 @@ For more examples and interactive tutorials, see W3Schools for the relevant HTML
 
 **Hinglish:** W3Schools par har HTML tag ka detailed explanation aur try-it-yourself examples milte hain. Aap unko dekh kar practise kar sakte hain.
 
+| Tag         | Description                                      |
+| ----------- | ------------------------------------------------ |
+| `<a>`       | Defines a hyperlink                              |
+| `<abbr>`    | Defines an abbreviation or acronym               |
+| `<address>` | Defines contact information for the author/owner |
+| `<area>`    | Defines an area inside an image map              |
+| `<article>` | Defines an article                               |
+| `<aside>`   | Defines content aside from page content          |
+| `<audio>`   | Defines embedded sound content                   |

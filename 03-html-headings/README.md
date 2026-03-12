@@ -36,3 +36,8 @@ Headings in HTML are used to define the structure and hierarchy of content on a 
 1. What is the purpose of HTML headings?
 2. How many heading levels are there in HTML?
 3. Why is heading hierarchy important for SEO?
+## W3Schools Reference
+For more examples and interactive tutorials, see W3Schools for the relevant HTML tag or concept (e.g. https://www.w3schools.com/tags/). Their explanations and try-it-yourself editor align closely with this lesson.
+
+**Hinglish:** W3Schools par har HTML tag ka detailed explanation aur try-it-yourself examples milte hain. Aap unko dekh kar practise kar sakte hain.
+

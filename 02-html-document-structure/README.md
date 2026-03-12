@@ -46,3 +46,8 @@ A well-structured HTML document uses semantic elements to provide meaning and st
 1. What are semantic HTML elements?
 2. Why is document structure important?
 3. How does semantic HTML improve web accessibility?
+## W3Schools Reference
+For more examples and interactive tutorials, see W3Schools for the relevant HTML tag or concept (e.g. https://www.w3schools.com/tags/). Their explanations and try-it-yourself editor align closely with this lesson.
+
+**Hinglish:** W3Schools par har HTML tag ka detailed explanation aur try-it-yourself examples milte hain. Aap unko dekh kar practise kar sakte hain.
+

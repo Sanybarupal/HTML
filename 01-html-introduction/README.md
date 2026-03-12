@@ -80,3 +80,8 @@
 1. HTML ka full form kya hai?
 2. DOCTYPE declaration ka purpose kya hai?
 3. `<head>` aur `<body>` elements mein difference explain karo.
+## W3Schools Reference
+For more examples and interactive tutorials, see W3Schools for the relevant HTML tag or concept (e.g. https://www.w3schools.com/tags/). Their explanations and try-it-yourself editor align closely with this lesson.
+
+**Hinglish:** W3Schools par har HTML tag ka detailed explanation aur try-it-yourself examples milte hain. Aap unko dekh kar practise kar sakte hain.
+

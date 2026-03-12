@@ -30,3 +30,8 @@ Paragraphs are the basic building blocks of text content in HTML. The `<p>` elem
 1. What is the `<p>` element used for?
 2. How does `<br>` differ from `<p>`?
 3. When would you use `<hr>`?
+## W3Schools Reference
+For more examples and interactive tutorials, see W3Schools for the relevant HTML tag or concept (e.g. https://www.w3schools.com/tags/). Their explanations and try-it-yourself editor align closely with this lesson.
+
+**Hinglish:** W3Schools par har HTML tag ka detailed explanation aur try-it-yourself examples milte hain. Aap unko dekh kar practise kar sakte hain.
+

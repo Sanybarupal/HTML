@@ -16,3 +16,8 @@ Links allow users to navigate between web pages and resources. The anchor tag (&
 - **href attribute**: Page ka URL specify karta hai jahan link jata hai.
 - **target attribute**: Linked document kahaan open karna hai define karta hai (e.g., _blank new tab ke liye).
 - **Absolute vs Relative URLs**: Absolute links full URL include karte hain, relative links current page ke relative hote hain.
+## W3Schools Reference
+For more examples and interactive tutorials, see W3Schools for the relevant HTML tag or concept (e.g. https://www.w3schools.com/tags/). Their explanations and try-it-yourself editor align closely with this lesson.
+
+**Hinglish:** W3Schools par har HTML tag ka detailed explanation aur try-it-yourself examples milte hain. Aap unko dekh kar practise kar sakte hain.
+

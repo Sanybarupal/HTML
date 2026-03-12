@@ -18,3 +18,9 @@ This lesson covers Images, an important aspect of HTML for creating structured a
 - **src attribute**: Image URL specify karta hai.
 - **alt attribute**: Accessibility ke liye alternative text provide karta hai.
 - **width aur height**: Image dimensions control karte hain.
+
+## W3Schools Reference
+For more examples and interactive tutorials, see W3Schools for the relevant HTML tag or concept (e.g. https://www.w3schools.com/tags/). Their explanations and try-it-yourself editor align closely with this lesson.
+
+**Hinglish:** W3Schools par har HTML tag ka detailed explanation aur try-it-yourself examples milte hain. Aap unko dekh kar practise kar sakte hain.
+

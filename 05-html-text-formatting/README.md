@@ -59,3 +59,8 @@ HTML provides various elements to format text, changing its appearance or meanin
 1. `<b>` aur `<strong>` mein kya difference hai?
 2. Kab `<em>` use karna chahiye `<i>` ke bajaye?
 3. Superscript aur subscript text kaise banate hain?
+## W3Schools Reference
+For more examples and interactive tutorials, see W3Schools for the relevant HTML tag or concept (e.g. https://www.w3schools.com/tags/). Their explanations and try-it-yourself editor align closely with this lesson.
+
+**Hinglish:** W3Schools par har HTML tag ka detailed explanation aur try-it-yourself examples milte hain. Aap unko dekh kar practise kar sakte hain.
+

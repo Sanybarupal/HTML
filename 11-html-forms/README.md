@@ -40,3 +40,8 @@ HTML forms allow users to input data and send it to a server. Forms are essentia
 1. What is the purpose of HTML forms?
 2. What are the different input types?
 3. How does form validation work in HTML?
+## W3Schools Reference
+For more examples and interactive tutorials, see W3Schools for the relevant HTML tag or concept (e.g. https://www.w3schools.com/tags/). Their explanations and try-it-yourself editor align closely with this lesson.
+
+**Hinglish:** W3Schools par har HTML tag ka detailed explanation aur try-it-yourself examples milte hain. Aap unko dekh kar practise kar sakte hain.
+

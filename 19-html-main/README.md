@@ -72,3 +72,11 @@ Provides a clear section for developers to target with CSS and JavaScript for la
   </footer>
 </body>
 ```
+
+## W3Schools Reference
+
+W3Schools provides a clear explanation of the `<main>` element with easy-to-follow examples and interactive try-it-yourself code. Their page emphasizes that `<main>` should contain the dominant page content and appear only once: [W3Schools: HTML <main> Tag](https://www.w3schools.com/tags/tag_main.asp).
+
+**Hinglish summary:** W3Schools bolta hai ki `<main>` page ka mukhya content rakhta hai aur page mein ek hi baar hona chahiye. Iska use screen readers aur search engines ko sahaj banane ke liye hota hai, aur yeh practice beginners ke liye bahut helpful examples ke saath samjhayi gayi hai.
+
+You can visit the link and test the examples directly in the browser. They also show compatibility tables and best practices, which align with the points in this lesson.

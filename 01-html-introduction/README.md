@@ -1,87 +1,265 @@
-# HTML Introduction
+﻿
+# ðŸ“˜ HTML Introduction - HTML à¤•à¥à¤¯à¤¾ à¤¹à¥ˆ?
 
-## Overview
 
-**English:** HTML (HyperText Markup Language) is the standard markup language for creating web pages and web applications. It provides the structure and content of a webpage, defining elements like headings, paragraphs, links, and images. HTML is the backbone of the World Wide Web and works alongside CSS for styling and JavaScript for interactivity.
+## Example
 
-**Hinglish:** HTML (HyperText Markup Language) web pages aur web applications banane ke liye standard markup language hai. Ye webpage ki structure aur content provide karta hai, jaise headings, paragraphs, links aur images define karta hai. HTML worldwide web ka base hai aur ye CSS ke saath styling aur JavaScript ke saath interactivity ke liye kaam karta hai.
+Add a simple example here showing how to use the concepts in this lesson. (Replace this with actual code or explanation.)
 
-## What is HTML?
 
-**English:** HTML stands for HyperText Markup Language. It is not a programming language but a markup language used to structure content on the web. HTML uses tags to mark up text, images, and other content for display in a web browser.
+This lesson explains the key ideas and best practices for # ðŸ“˜ HTML Introduction - HTML à¤•à¥à¤¯à¤¾ à¤¹à¥ˆ?. Follow the examples, try the code, and practice the exercises to learn deeply.
 
-**Hinglish:** HTML ka matlab hai HyperText Markup Language. Ye ek programming language nahi hai balki ek markup language hai jiska use web par content ko structure karne ke liye kiya jata hai. HTML tags ka use text, images aur other content ko web browser mein display karne ke liye markup karne ke liye karta hai.
 
-## Key Concepts
+> **à¤‡à¤¸ chapter à¤®à¥‡à¤‚ à¤¹à¤® à¤¸à¥€à¤–à¥‡à¤‚à¤—à¥‡ à¤•à¤¿ HTML à¤•à¥à¤¯à¤¾ à¤¹à¥ˆ, à¤¯à¥‡ à¤•à¥ˆà¤¸à¥‡ à¤•à¤¾à¤® à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆ, à¤”à¤° websites à¤¬à¤¨à¤¾à¤¨à¥‡ à¤®à¥‡à¤‚ à¤‡à¤¸à¤•à¤¾ à¤•à¥à¤¯à¤¾ role à¤¹à¥ˆà¥¤**
 
-**English:**
-- **DOCTYPE**: Declares the document type and version of HTML being used.
-- **html**: The root element that wraps the entire HTML document.
-- **head**: Contains meta-information about the document, such as title, charset, and links to stylesheets.
-- **body**: Contains the visible content of the page, like text, images, and other elements.
+---
 
-**Hinglish:**
-- **DOCTYPE**: Document type aur use kiye ja rahe HTML ka version declare karta hai.
-- **html**: Root element jo complete HTML document ko wrap karta hai.
-- **head**: Document ke baare mein meta-information contain karta hai, jaise title, charset, aur stylesheets ke links.
-- **body**: Page ki visible content contain karta hai, jaise text, images aur other elements.
+## ðŸ“Œ HTML à¤•à¥à¤¯à¤¾ à¤¹à¥ˆ?
 
-## Basic HTML Structure
+- **HTML** à¤•à¤¾ full form à¤¹à¥ˆ **HyperText Markup Language**
+- à¤¯à¥‡ web pages à¤¬à¤¨à¤¾à¤¨à¥‡ à¤•à¥€ **standard language** à¤¹à¥ˆ
+- HTML web page à¤•à¤¾ **structure** (à¤¢à¤¾à¤‚à¤šà¤¾) define à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆ
+- HTML à¤®à¥‡à¤‚ à¤¬à¤¹à¥à¤¤ à¤¸à¤¾à¤°à¥‡ **elements** à¤¹à¥‹à¤¤à¥‡ à¤¹à¥ˆà¤‚
+- HTML elements browser à¤•à¥‹ à¤¬à¤¤à¤¾à¤¤à¥‡ à¤¹à¥ˆà¤‚ à¤•à¤¿ content à¤•à¥‹ **à¤•à¥ˆà¤¸à¥‡ display** à¤•à¤°à¤¨à¤¾ à¤¹à¥ˆ
+- HTML elements content à¤•à¥‹ label à¤•à¤°à¤¤à¥‡ à¤¹à¥ˆà¤‚ à¤œà¥ˆà¤¸à¥‡: "à¤¯à¥‡ heading à¤¹à¥ˆ", "à¤¯à¥‡ paragraph à¤¹à¥ˆ", "à¤¯à¥‡ link à¤¹à¥ˆ", etc.
+
+> ðŸ’¡ **à¤†à¤¸à¤¾à¤¨ à¤¶à¤¬à¥à¤¦à¥‹à¤‚ à¤®à¥‡à¤‚:** HTML à¤à¤• language à¤¹à¥ˆ à¤œà¥‹ browser à¤•à¥‹ à¤¬à¤¤à¤¾à¤¤à¥€ à¤¹à¥ˆ à¤•à¤¿ "à¤¯à¥‡ text heading à¤¹à¥ˆ, à¤¯à¥‡ photo à¤¹à¥ˆ, à¤¯à¥‡ link à¤¹à¥ˆ" â€” à¤®à¤¤à¤²à¤¬ page à¤•à¤¾ structure!
+
+---
+
+## ðŸ“Œ à¤à¤• Simple HTML Document
+
+à¤¨à¥€à¤šà¥‡ à¤à¤• basic HTML document à¤•à¤¾ example à¤¹à¥ˆ:
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First HTML Page</title>
+    <title>Page Title</title>
 </head>
 <body>
-    <h1>Welcome to HTML</h1>
-    <p>This is a paragraph of text.</p>
-    <p>HTML is easy to learn!</p>
+
+    <h1>à¤®à¥‡à¤°à¥€ à¤ªà¤¹à¤²à¥€ Heading</h1>
+    <p>à¤®à¥‡à¤°à¤¾ à¤ªà¤¹à¤²à¤¾ paragraph.</p>
+
 </body>
 </html>
 ```
 
-**English:** The above code shows the basic structure of an HTML document. Every HTML page starts with a DOCTYPE declaration, followed by the html element, which contains the head and body sections. The head section includes metadata, while the body contains the actual content.
+### ðŸ” à¤‡à¤¸à¤•à¥‹ à¤¸à¤®à¤à¤¤à¥‡ à¤¹à¥ˆà¤‚ Line by Line:
 
-**Hinglish:** Upar diya gaya code HTML document ki basic structure dikha raha hai. Har HTML page DOCTYPE declaration se start hota hai, uske baad html element aata hai, jisme head aur body sections hote hain. Head section mein metadata include hota hai, jabki body mein actual content hota hai.
+| Line | Code | à¤®à¤¤à¤²à¤¬ (Meaning) |
+|------|------|-------------------|
+| 1 | `<!DOCTYPE html>` | à¤¯à¥‡ à¤¬à¤¤à¤¾à¤¤à¤¾ à¤¹à¥ˆ à¤•à¤¿ document HTML5 à¤¹à¥ˆ |
+| 2 | `<html>` | à¤¯à¥‡ HTML page à¤•à¤¾ **root element** à¤¹à¥ˆ (à¤¸à¤¬ à¤•à¥à¤› à¤‡à¤¸à¤•à¥‡ à¤…à¤‚à¤¦à¤°) |
+| 3 | `<head>` | à¤¯à¥‡ page à¤•à¥€ **meta information** à¤°à¤–à¤¤à¤¾ à¤¹à¥ˆ (à¤œà¥‹ à¤¦à¤¿à¤–à¤¤à¤¾ à¤¨à¤¹à¥€à¤‚ browser à¤®à¥‡à¤‚) |
+| 4 | `<title>Page Title</title>` | à¤¯à¥‡ page à¤•à¤¾ **title** set à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆ (browser tab à¤®à¥‡à¤‚ à¤¦à¤¿à¤–à¤¤à¤¾ à¤¹à¥ˆ) |
+| 5 | `</head>` | Head section à¤¯à¤¹à¤¾à¤ à¤–à¤¤à¥à¤® |
+| 6 | `<body>` | à¤¯à¥‡ page à¤•à¤¾ **body** à¤¹à¥ˆ â€” à¤œà¥‹ à¤•à¥à¤› à¤­à¥€ à¤¦à¤¿à¤–à¤¤à¤¾ à¤¹à¥ˆ browser à¤®à¥‡à¤‚, à¤¸à¤¬ à¤‡à¤¸à¤®à¥‡à¤‚ à¤¹à¥‹à¤¤à¤¾ à¤¹à¥ˆ |
+| 7 | `<h1>à¤®à¥‡à¤°à¥€ à¤ªà¤¹à¤²à¥€ Heading</h1>` | à¤¯à¥‡ à¤à¤• **à¤¬à¤¡à¤¼à¥€ heading** define à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆ |
+| 8 | `<p>à¤®à¥‡à¤°à¤¾ à¤ªà¤¹à¤²à¤¾ paragraph.</p>` | à¤¯à¥‡ à¤à¤• **paragraph** define à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆ |
+| 9 | `</body>` | Body section à¤¯à¤¹à¤¾à¤ à¤–à¤¤à¥à¤® |
+| 10 | `</html>` | HTML document à¤¯à¤¹à¤¾à¤ à¤–à¤¤à¥à¤® |
 
-## Practice Tasks
+---
 
-**English:**
-1. Create a new HTML file named `index.html` and add the basic HTML structure shown above.
-2. Change the title in the `<title>` tag to something personal, like "My HTML Page".
-3. Add your own heading using `<h1>` and a paragraph using `<p>`.
-4. Add a comment in the HTML code using `<!-- Your comment here -->`.
-5. Open the file in a web browser to see how it looks.
+## ðŸ“Œ HTML Element à¤•à¥à¤¯à¤¾ à¤¹à¥‹à¤¤à¤¾ à¤¹à¥ˆ?
 
-**Hinglish:**
-1. `index.html` naam se ek naya HTML file banao aur upar dikhai gayi basic HTML structure add karo.
-2. `<title>` tag mein title ko kuch personal mein change karo, jaise "My HTML Page".
-3. `<h1>` ka use karke apna heading aur `<p>` ka use karke ek paragraph add karo.
-4. HTML code mein `<!-- Your comment here -->` ka use karke ek comment add karo.
-5. File ko web browser mein kholo aur dekho ki ye kaisa dikhta hai.
+à¤à¤• HTML element **start tag**, à¤•à¥à¤› **content**, à¤”à¤° à¤à¤• **end tag** à¤¸à¥‡ à¤®à¤¿à¤²à¤•à¤° à¤¬à¤¨à¤¤à¤¾ à¤¹à¥ˆ:
 
-## Next Steps
+```
+<tagname> Content à¤¯à¤¹à¤¾à¤ à¤†à¤¤à¤¾ à¤¹à¥ˆ... </tagname>
+```
 
-**English:** Once you have completed this introduction, move on to the next lesson: [02-html-document-structure](../02-html-document-structure/README.md) to learn more about HTML document structure.
+### Examples:
 
-**Hinglish:** Ek baar jab aap is introduction ko complete kar lein, next lesson par jaayein: [02-html-document-structure](../02-html-document-structure/README.md) HTML document structure ke baare mein aur jaanne ke liye.
+```html
+<h1>à¤¯à¥‡ à¤à¤• heading à¤¹à¥ˆ</h1>
+<p>à¤¯à¥‡ à¤à¤• paragraph à¤¹à¥ˆ</p>
+```
 
-## Interview Questions
+### ðŸ“Š Element à¤•à¤¾ Structure:
 
-1. What does HTML stand for?
-2. What is the purpose of the DOCTYPE declaration?
-3. Explain the difference between `<head>` and `<body>` elements.
+```
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  Start Tag  â”‚      Content         â”‚   End Tag    â”‚
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚   <h1>      â”‚ à¤¯à¥‡ à¤à¤• heading à¤¹à¥ˆ    â”‚   </h1>      â”‚
+â”‚   <p>       â”‚ à¤¯à¥‡ à¤à¤• paragraph à¤¹à¥ˆ  â”‚   </p>       â”‚
+â”‚   <br>      â”‚     à¤•à¥‹à¤ˆ content à¤¨à¤¹à¥€à¤‚ â”‚   à¤•à¥‹à¤ˆ end tag à¤¨à¤¹à¥€à¤‚ â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+```
 
-**Hinglish:**
-1. HTML ka full form kya hai?
-2. DOCTYPE declaration ka purpose kya hai?
-3. `<head>` aur `<body>` elements mein difference explain karo.
+> âš ï¸ **Note:** à¤•à¥à¤› HTML elements à¤®à¥‡à¤‚ à¤•à¥‹à¤ˆ content à¤¨à¤¹à¥€à¤‚ à¤¹à¥‹à¤¤à¤¾ (à¤œà¥ˆà¤¸à¥‡ `<br>`) â€” à¤‡à¤¨à¤•à¥‹ **empty elements** à¤•à¤¹à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤ à¤‡à¤¨à¤®à¥‡à¤‚ end tag à¤­à¥€ à¤¨à¤¹à¥€à¤‚ à¤¹à¥‹à¤¤à¤¾à¥¤
+
+---
+
+## ðŸ“Œ Web Browsers à¤•à¤¾ à¤•à¤¾à¤®
+
+Web browsers (à¤œà¥ˆà¤¸à¥‡ Chrome, Edge, Firefox, Safari) à¤•à¤¾ à¤•à¤¾à¤® à¤¹à¥ˆ à¤•à¤¿ à¤µà¥‹ HTML documents à¤•à¥‹ **à¤ªà¤¢à¤¼à¥‡à¤‚** à¤”à¤° à¤‰à¤¨à¤•à¥‹ **à¤¸à¤¹à¥€ à¤¤à¤°à¥€à¤•à¥‡ à¤¸à¥‡ display** à¤•à¤°à¥‡à¤‚à¥¤
+
+Browser HTML tags à¤•à¥‹ screen à¤ªà¤° **à¤¨à¤¹à¥€à¤‚ à¤¦à¤¿à¤–à¤¾à¤¤à¤¾**à¥¤ à¤µà¥‹ tags à¤•à¥‹ à¤¸à¤®à¤à¤¤à¤¾ à¤¹à¥ˆ à¤”à¤° content à¤•à¥‹ à¤‰à¤¨à¤•à¥‡ à¤¹à¤¿à¤¸à¤¾à¤¬ à¤¸à¥‡ render à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆ:
+
+```
+ðŸ“„ HTML Code               â†’    ðŸ–¥ï¸ Browser à¤®à¥‡à¤‚ à¤¦à¤¿à¤–à¤¤à¤¾ à¤¹à¥ˆ
+â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+<h1>Heading</h1>           â†’    à¤¬à¤¡à¤¼à¥€ bold heading
+<p>Paragraph</p>           â†’    Normal text paragraph
+<img src="photo.jpg">      â†’    à¤à¤• photo à¤¦à¤¿à¤–à¤¤à¥€ à¤¹à¥ˆ
+```
+
+### ðŸ“Š Browser à¤•à¥ˆà¤¸à¥‡ à¤•à¤¾à¤® à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆ â€” Flowchart:
+
+```
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  HTML File       â”‚
+â”‚  (code à¤²à¤¿à¤–à¤¾)     â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+         â”‚
+         â–¼
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  Browser à¤ªà¤¢à¤¼à¤¤à¤¾   â”‚
+â”‚  à¤¹à¥ˆ HTML Code    â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+         â”‚
+         â–¼
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  Tags à¤¸à¤®à¤à¤¤à¤¾     â”‚
+â”‚  à¤¹à¥ˆ Browser      â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+         â”‚
+         â–¼
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  Screen à¤ªà¤°       â”‚
+â”‚  à¤¦à¤¿à¤–à¤¾à¤¤à¤¾ à¤¹à¥ˆ       â”‚
+â”‚  (Render à¤•à¤°à¤¤à¤¾)   â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+```
+
+---
+
+## ðŸ“Œ HTML Page à¤•à¤¾ Structure
+
+à¤¨à¥€à¤šà¥‡ à¤à¤• HTML page à¤•à¤¾ structure visualize à¤•à¤¿à¤¯à¤¾ à¤—à¤¯à¤¾ à¤¹à¥ˆ:
+
+```
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚ <html>                                           â”‚
+â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
+â”‚  â”‚ <head>                                       â”‚ â”‚
+â”‚  â”‚    <title>Page à¤•à¤¾ Title</title>              â”‚ â”‚
+â”‚  â”‚ </head>                                      â”‚ â”‚
+â”‚  â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤ â”‚
+â”‚  â”‚ <body>                                       â”‚ â”‚
+â”‚  â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”    â”‚ â”‚
+â”‚  â”‚  â”‚ <h1>à¤¯à¥‡ à¤à¤• Heading à¤¹à¥ˆ</h1>           â”‚    â”‚ â”‚
+â”‚  â”‚  â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤    â”‚ â”‚
+â”‚  â”‚  â”‚ <p>à¤¯à¥‡ à¤à¤• paragraph à¤¹à¥ˆ</p>           â”‚    â”‚ â”‚
+â”‚  â”‚  â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤    â”‚ â”‚
+â”‚  â”‚  â”‚ <p>à¤¯à¥‡ à¤à¤• à¤”à¤° paragraph à¤¹à¥ˆ</p>        â”‚    â”‚ â”‚
+â”‚  â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜    â”‚ â”‚
+â”‚  â”‚ </body>                                      â”‚ â”‚
+â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
+â”‚ </html>                                          â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+```
+
+> ðŸ’¡ **Note:** à¤œà¥‹ content `<body>` section à¤®à¥‡à¤‚ à¤¹à¥‹à¤¤à¤¾ à¤¹à¥ˆ (white area à¤Šà¤ªà¤°) à¤µà¤¹à¥€ browser à¤®à¥‡à¤‚ à¤¦à¤¿à¤–à¤¤à¤¾ à¤¹à¥ˆà¥¤ `<head>` section à¤®à¥‡à¤‚ à¤œà¥‹ à¤¹à¥‹à¤¤à¤¾ à¤¹à¥ˆ à¤µà¥‹ **à¤ªà¥€à¤›à¥‡ à¤¸à¥‡** à¤•à¤¾à¤® à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆ (à¤œà¥ˆà¤¸à¥‡ title, meta info, etc.)
+
+---
+
+## ðŸ“Œ HTML à¤•à¤¾ à¤‡à¤¤à¤¿à¤¹à¤¾à¤¸ (History)
+
+Tim Berners-Lee à¤¨à¥‡ **1991** à¤®à¥‡à¤‚ HTML à¤¬à¤¨à¤¾à¤¯à¤¾ à¤¥à¤¾à¥¤ à¤¤à¤¬ à¤¸à¥‡ à¤•à¤ˆ versions à¤†à¤¯à¥‡ à¤¹à¥ˆà¤‚:
+
+| à¤¸à¤¾à¤² | Version | à¤•à¥à¤¯à¤¾ à¤¨à¤¯à¤¾ à¤†à¤¯à¤¾ |
+|------|---------|---------------|
+| 1991 | HTML | à¤ªà¤¹à¤²à¥€ à¤¬à¤¾à¤° à¤¬à¤¨à¤¾ |
+| 1995 | HTML 2.0 | Standard version |
+| 1997 | HTML 3.2 | Tables, forms, à¤”à¤° text formatting |
+| 1999 | HTML 4.01 | à¤¬à¤¹à¥à¤¤ popular, CSS support |
+| 2000 | XHTML | HTML à¤•à¤¾ strict version |
+| 2014 | **HTML5** | Latest à¤”à¤° à¤¸à¤¬à¤¸à¥‡ powerful version âœ… |
+
+> ðŸŽ¯ **à¤¹à¤® à¤‡à¤¸ course à¤®à¥‡à¤‚ HTML5 à¤¸à¥€à¤–à¥‡à¤‚à¤—à¥‡** â€” à¤œà¥‹ à¤•à¤¿ à¤¸à¤¬à¤¸à¥‡ latest à¤”à¤° widely used version à¤¹à¥ˆ!
+
+---
+
+## ðŸ“Œ HTML à¤¸à¥‡ à¤•à¥à¤¯à¤¾ à¤•à¥à¤¯à¤¾ à¤¬à¤¨ à¤¸à¤•à¤¤à¤¾ à¤¹à¥ˆ?
+
+HTML à¤¸à¥‡ à¤†à¤ª à¤¬à¤¨à¤¾ à¤¸à¤•à¤¤à¥‡ à¤¹à¥ˆà¤‚:
+
+- ðŸŒ **Websites** â€” Personal blogs, company sites
+- ðŸ“§ **Email Templates** â€” HTML emails
+- ðŸ“± **Web Apps** â€” Interactive applications
+- ðŸ“ **Documents** â€” Online reports, articles
+- ðŸŽ® **Simple Games** â€” Canvas à¤•à¥‡ à¤¸à¤¾à¤¥
+- ðŸ“Š **Dashboards** â€” Data display panels
+
+---
+
+## âœ… à¤‡à¤¸ Chapter à¤•à¤¾ à¤¸à¤¾à¤°à¤¾à¤‚à¤¶
+
+```
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚                    à¤®à¥à¤–à¥à¤¯ à¤¬à¤¾à¤¤à¥‡à¤‚                        â”‚
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚ âœ… HTML = HyperText Markup Language                  â”‚
+â”‚ âœ… HTML web pages à¤•à¤¾ structure define à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆ        â”‚
+â”‚ âœ… HTML à¤®à¥‡à¤‚ elements à¤¹à¥‹à¤¤à¥‡ à¤¹à¥ˆà¤‚ (tags + content)       â”‚
+â”‚ âœ… Browser HTML à¤•à¥‹ à¤ªà¤¢à¤¼à¤¤à¤¾ à¤¹à¥ˆ à¤”à¤° display à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆ       â”‚
+â”‚ âœ… <!DOCTYPE html> à¤¸à¥‡ HTML5 document à¤¶à¥à¤°à¥‚ à¤¹à¥‹à¤¤à¤¾ à¤¹à¥ˆ    â”‚
+â”‚ âœ… <html>, <head>, <body> â€” 3 main sections à¤¹à¥ˆà¤‚      â”‚
+â”‚ âœ… <body> à¤•à¥‡ à¤…à¤‚à¤¦à¤° à¤•à¤¾ content browser à¤®à¥‡à¤‚ à¤¦à¤¿à¤–à¤¤à¤¾ à¤¹à¥ˆ   â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+```
+
+---
+
+## ðŸ§ª à¤–à¥à¤¦ Try à¤•à¤°à¥‹!
+
+1. à¤…à¤ªà¤¨à¥‡ computer à¤®à¥‡à¤‚ à¤à¤• file à¤¬à¤¨à¤¾à¤“: `index.html`
+2. à¤‰à¤¸à¤®à¥‡à¤‚ à¤¯à¥‡ code à¤²à¤¿à¤–à¥‹:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>à¤®à¥‡à¤°à¥€ à¤ªà¤¹à¤²à¥€ Website</title>
+</head>
+<body>
+    <h1>Hello à¤¦à¥à¤¨à¤¿à¤¯à¤¾!</h1>
+    <p>à¤®à¥ˆà¤‚ HTML à¤¸à¥€à¤– à¤°à¤¹à¤¾ à¤¹à¥‚à¤!</p>
+</body>
+</html>
+```
+
+3. File à¤•à¥‹ save à¤•à¤°à¥‹
+4. Browser à¤®à¥‡à¤‚ open à¤•à¤°à¥‹ (double-click à¤•à¤°à¤•à¥‡)
+5. à¤¦à¥‡à¤–à¥‹ â€” à¤¤à¥à¤®à¥à¤¹à¤¾à¤°à¥€ à¤ªà¤¹à¤²à¥€ website à¤¬à¤¨ à¤—à¤ˆ! ðŸŽ‰
+
+---
+
+## ðŸ“Œ W3Schools Reference
+
+W3Schools à¤ªà¤° "HTML Introduction" à¤¯à¤¾ "HTML Basics" search à¤•à¤°à¤•à¥‡ interactive examples à¤¦à¥‡à¤–à¥‹à¥¤ à¤¯à¤¹à¤¾à¤ à¤ªà¤° à¤†à¤ª à¤¸à¥€à¤§à¥‡ code à¤¬à¤¦à¤²à¤•à¤° output à¤¤à¥à¤°à¤‚à¤¤ à¤¦à¥‡à¤– à¤¸à¤•à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤
+
+**Hinglish:** W3Schools par har HTML tag ka detailed explanation aur "Try it Yourself" examples milà¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤ Aap unko dekh kar practise à¤•à¤° à¤¸à¤•à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤
+
+---
+
+[â¬…ï¸ à¤ªà¤¿à¤›à¤²à¤¾: INDEX](../README.md) | [âž¡ï¸ à¤…à¤—à¤²à¤¾: HTML Editors](../02-html-document-structure/README.md)
+
 ## W3Schools Reference
 For more examples and interactive tutorials, see W3Schools for the relevant HTML tag or concept (e.g. https://www.w3schools.com/tags/). Their explanations and try-it-yourself editor align closely with this lesson.
 
 **Hinglish:** W3Schools par har HTML tag ka detailed explanation aur try-it-yourself examples milte hain. Aap unko dekh kar practise kar sakte hain.
+
+
+
+## Practice Tasks
+
+1. Try writing a simple example related to this lesson.
+2. Change the code and see what happens.
+3. Write down 2 things you learned.
 

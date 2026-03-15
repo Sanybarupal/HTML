@@ -1,6 +1,10 @@
 ﻿# The `<main>` Element
 
-## Overview
+
+## Example
+
+Add a simple example here showing how to use the concepts in this lesson. (Replace this with actual code or explanation.)
+
 
 The `<main>` element represents the main content of a web page. It specifies the primary content area that directly relates to the document's central topic or application's main functionality. There should be only one `<main>` element per page, and it must not be nested inside `<article>`, `<aside>`, `<footer>`, `<header>`, or `<nav>` elements.
 
@@ -80,3 +84,11 @@ W3Schools provides a clear explanation of the `<main>` element with easy-to-foll
 **Hinglish summary:** W3Schools bolta hai ki `<main>` page ka mukhya content rakhta hai aur page mein ek hi baar hona chahiye. Iska use screen readers aur search engines ko sahaj banane ke liye hota hai, aur yeh practice beginners ke liye bahut helpful examples ke saath samjhayi gayi hai.
 
 You can visit the link and test the examples directly in the browser. They also show compatibility tables and best practices, which align with the points in this lesson.
+
+
+## Practice Tasks
+
+1. Try writing a simple example related to this lesson.
+2. Change the code and see what happens.
+3. Write down 2 things you learned.
+

@@ -1,417 +1,118 @@
-# HTML Complete Course
-
-This repository provides a comprehensive learning path for HTML, from basic to advanced levels. It is structured into three levels with 30 topics, each containing practical examples, explanations, and exercises.
-
-Hinglish: Ye repository HTML ke liye ek comprehensive learning path provide karta hai, basic se advanced level tak. Ye teen levels mein structured hai with 30 topics, har ek mein practical examples, explanations, aur exercises hain.
-
-Learning Roadmap
-Level 1: Basic HTML - Learn the fundamentals of HTML structure and common elements.
-Level 2: Intermediate HTML - Dive into forms, multimedia, and semantic elements.
-Level 3: Advanced HTML - Explore advanced APIs, accessibility, and best practices.
-Hinglish:
-
-Level 1: Basic HTML - HTML structure aur common elements ke fundamentals seekho.
-Level 2: Intermediate HTML - Forms, multimedia, aur semantic elements mein dive karo.
-Level 3: Advanced HTML - Advanced APIs, accessibility, aur best practices explore karo.
-Full Topic Index
-Level 1 — Basic HTML
-01-html-introduction
-02-html-document-structure
-03-html-headings
-04-html-paragraphs
-05-html-text-formatting
-06-html-links
-07-html-images
-08-html-lists
-09-html-tables
-10-html-basic-attributes
-Level 2 — Intermediate HTML
-11-html-forms
-12-html-input-types
-13-html-form-validation
-14-html-semantic-elements
-15-html-audio-video
-16-html-iframe
-17-html-meta-tags
-18-html-entities
-19-html-picture-responsive-images
-20-html-image-maps
-Level 3 — Advanced HTML
-21-html-svg
-22-html-canvas
-23-html-drag-drop-api
-24-html-geolocation-api
-25-html-web-storage
-26-html-web-workers
-27-html-websocket-introduction
-28-html-accessibility
-29-html-seo-structure
-30-html-best-practices
-Usage Instructions
-Each topic folder contains:
-
-index.html: Live examples and demonstrations.
-style.css: Styling for the examples.
-README.md: Detailed explanations, code snippets, practice tasks, and interview questions.
-Open index.html in your browser to see the examples. Read the README.md for learning content.
-
-Hinglish: Har topic folder mein hai:
-
-index.html: Live examples aur demonstrations.
-style.css: Examples ke liye styling.
-README.md: Detailed explanations, code snippets, practice tasks, aur interview questions.
-Browser mein index.html kholo examples dekhne ke liye. Learning content ke liye README.md padho.
-
-GitHub Learning Workflow
-Fork this repository.
-Clone your fork locally.
-Navigate to a topic folder.
-Open index.html in a browser.
-Read the README.md and try the practice tasks.
-Commit your changes and push to your fork.
-Create a pull request for contributions.
-Hinglish:
-
-Is repository ko fork karo.
-Apne fork ko locally clone karo.
-Ek topic folder mein navigate karo.
-Browser mein index.html kholo.
-README.md padho aur practice tasks try karo.
-Changes commit karo aur apne fork mein push karo.
-Contributions ke liye pull request banao.
-Contribution Guidelines
-Ensure code follows HTML5 standards.
-Add comments in code for clarity.
-Update README.md with accurate information.
-Test examples in multiple browsers.
-Follow the existing structure.
-Hinglish:
-
-Ensure karo ki code HTML5 standards follow karta hai.
-Code mein clarity ke liye comments add karo.
-README.md ko accurate information se update karo.
-Examples ko multiple browsers mein test karo.
-Existing structure follow karo.
-
-# HTML Complete Course
-
-This repository provides a comprehensive learning path for HTML, from basic to advanced levels. It is structured into three levels with 30 topics, each containing practical examples, explanations, and exercises.
-
-Hinglish: Ye repository HTML ke liye ek comprehensive learning path provide karta hai, basic se advanced level tak. Ye teen levels mein structured hai with 30 topics, har ek mein practical examples, explanations, aur exercises hain.
-
-Learning Roadmap
-Level 1: Basic HTML - Learn the fundamentals of HTML structure and common elements.
-Level 2: Intermediate HTML - Dive into forms, multimedia, and semantic elements.
-Level 3: Advanced HTML - Explore advanced APIs, accessibility, and best practices.
-Hinglish:
-
-Level 1: Basic HTML - HTML structure aur common elements ke fundamentals seekho.
-Level 2: Intermediate HTML - Forms, multimedia, aur semantic elements mein dive karo.
-Level 3: Advanced HTML - Advanced APIs, accessibility, aur best practices explore karo.
-Full Topic Index
-Level 1 — Basic HTML
-01-html-introduction
-02-html-document-structure
-03-html-headings
-04-html-paragraphs
-05-html-text-formatting
-06-html-links
-07-html-images
-08-html-lists
-09-html-tables
-10-html-basic-attributes
-Level 2 — Intermediate HTML
-11-html-forms
-12-html-input-types
-13-html-form-validation
-14-html-semantic-elements
-15-html-audio-video
-16-html-iframe
-17-html-meta-tags
-18-html-entities
-19-html-picture-responsive-images
-20-html-image-maps
-Level 3 — Advanced HTML
-21-html-svg
-22-html-canvas
-23-html-drag-drop-api
-24-html-geolocation-api
-25-html-web-storage
-26-html-web-workers
-27-html-websocket-introduction
-28-html-accessibility
-29-html-seo-structure
-30-html-best-practices
-Usage Instructions
-Each topic folder contains:
-
-index.html: Live examples and demonstrations.
-style.css: Styling for the examples.
-README.md: Detailed explanations, code snippets, practice tasks, and interview questions.
-Open index.html in your browser to see the examples. Read the README.md for learning content.
-
-Hinglish: Har topic folder mein hai:
-
-index.html: Live examples aur demonstrations.
-style.css: Examples ke liye styling.
-README.md: Detailed explanations, code snippets, practice tasks, aur interview questions.
-Browser mein index.html kholo examples dekhne ke liye. Learning content ke liye README.md padho.
+﻿# ?? HTML ???? ????? - ????? ??? ????
 
-GitHub Learning Workflow
-Fork this repository.
-Clone your fork locally.
-Navigate to a topic folder.
-Open index.html in a browser.
-Read the README.md and try the practice tasks.
-Commit your changes and push to your fork.
-Create a pull request for contributions.
-Hinglish:
 
-Is repository ko fork karo.
-Apne fork ko locally clone karo.
-Ek topic folder mein navigate karo.
-Browser mein index.html kholo.
-README.md padho aur practice tasks try karo.
-Changes commit karo aur apne fork mein push karo.
-Contributions ke liye pull request banao.
-Contribution Guidelines
-Ensure code follows HTML5 standards.
-Add comments in code for clarity.
-Update README.md with accurate information.
-Test examples in multiple browsers.
-Follow the existing structure.
-Hinglish:
+## Example
 
-Ensure karo ki code HTML5 standards follow karta hai.
-Code mein clarity ke liye comments add karo.
-README.md ko accurate information se update karo.
-Examples ko multiple browsers mein test karo.
-Existing structure follow karo.
-- Ensure karo ki code HTML5 standards follow karta hai.
-- Code mein clarity ke liye comments add karo.
-- README.md ko accurate information se update karo.
-- Examples ko multiple browsers mein test karo.
-- Existing structure follow karo.
+Add a simple example here showing how to use the concepts in this lesson. (Replace this with actual code or explanation.)
 
-## W3Schools HTML Complete Topic List
 
-1️⃣ HTML Basics
+This lesson explains the key ideas and best practices for # ?? HTML ???? ????? - ????? ??? ????. Follow the examples, try the code, and practice the exercises to learn deeply.
 
-HTML Introduction
 
-HTML Editors
+> **W3Schools ?? ?????? ???, ???? ????? ??? — ???? HTML ???? ????? ??? ????**
 
-HTML Basic Structure
+---
 
-HTML Elements
+## ?? ?? ????? ????? ??? ???
 
-HTML Attributes
+- ?? ??? HTML ????? ????? ??? ????? English ??? ??????? ???? ??
+- Beginners ?? web development ???? ???? ????? ???
+- ???? ?? ???? ?? learners ?? basics ?? advanced ?? ???? ????? ???
 
-HTML Headings
+---
 
-HTML Paragraphs
+## ?? Topics Index
 
-HTML Styles
+### ?? HTML Tutorial (Basics)
 
-HTML Formatting
+| # | Topic | File |
+|---|-------|------|
+| 01 | HTML Introduction - HTML ???? ??? | [01_HTML_Introduction.md](./01-html-introduction/README.md) |
+| 02 | HTML Document Structure | [02-html-document-structure/README.md](./02-html-document-structure/README.md) |
+| 03 | HTML Headings | [03-html-headings/README.md](./03-html-headings/README.md) |
+| 04 | HTML Paragraphs | [04-html-paragraphs/README.md](./04-html-paragraphs/README.md) |
+| 05 | HTML Text Formatting | [05-html-text-formatting/README.md](./05-html-text-formatting/README.md) |
+| 06 | HTML Links | [06-html-links/README.md](./06-html-links/README.md) |
+| 07 | HTML Images | [07-html-images/README.md](./07-html-images/README.md) |
+| 08 | HTML Lists | [08-html-lists/README.md](./08-html-lists/README.md) |
+| 09 | HTML Tables | [09-html-tables/README.md](./09-html-tables/README.md) |
+| 10 | HTML Basic Attributes | [10-html-basic-attributes/README.md](./10-html-basic-attributes/README.md) |
 
-HTML Quotations
+### ?? HTML Forms & Inputs
 
-HTML Comments
+| # | Topic | File |
+|---|-------|------|
+| 11 | HTML Forms | [11-html-forms/README.md](./11-html-forms/README.md) |
+| 12 | HTML Input Types | [12-html-input-types/README.md](./12-html-input-types/README.md) |
 
-2️⃣ HTML Colors & CSS
+### ?? Semantic & Layout
 
-HTML Colors
+| # | Topic | File |
+|---|-------|------|
+| 13 | HTML Semantic Elements | [13-html-semantic-elements/README.md](./13-html-semantic-elements/README.md) |
+| 14 | HTML Navigation | [14-html-navigation/README.md](./14-html-navigation/README.md) |
+| 15 | HTML Sections | [15-html-sections/README.md](./15-html-sections/README.md) |
+| 16 | HTML Articles | [16-html-articles/README.md](./16-html-articles/README.md) |
+| 17 | HTML Aside | [17-html-aside/README.md](./17-html-aside/README.md) |
+| 18 | HTML Header & Footer | [18-html-header-footer/README.md](./18-html-header-footer/README.md) |
+| 19 | HTML Main | [19-html-main/README.md](./19-html-main/README.md) |
+| 20 | HTML Div & Span | [20-html-div-span/README.md](./20-html-div-span/README.md) |
 
-HTML RGB
+### ?? Media & Advanced Topics
 
-HTML HEX
+| # | Topic | File |
+|---|-------|------|
+| 21 | HTML SVG | [21-html-svg/README.md](./21-html-svg/README.md) |
+| 22 | HTML Canvas | [22-html-canvas/README.md](./22-html-canvas/README.md) |
+| 23 | HTML Audio | [23-html-audio/README.md](./23-html-audio/README.md) |
+| 24 | HTML Video | [24-html-video/README.md](./24-html-video/README.md) |
+| 25 | HTML Iframes | [25-html-iframes/README.md](./25-html-iframes/README.md) |
+| 26 | HTML Meta Tags | [26-html-meta-tags/README.md](./26-html-meta-tags/README.md) |
+| 27 | HTML Favicon | [27-html-favicon/README.md](./27-html-favicon/README.md) |
+| 28 | HTML Responsive Design Intro | [28-html-responsive-design-intro/README.md](./28-html-responsive-design-intro/README.md) |
+| 29 | HTML Viewport Meta | [29-html-viewport-meta/README.md](./29-html-viewport-meta/README.md) |
+| 30 | HTML Media Queries | [30-html-media-queries/README.md](./30-html-media-queries/README.md) |
 
-HTML HSL
+---
 
-HTML CSS
+## ?? ???? ??????
 
-3️⃣ HTML Links & Media
+1. ??? ?? list ??? ?? ???? topic (???? "HTML Introduction") ??????
+2. ?? lesson ??? theory, example code ?? practices ??? ??? — ?????? step-by-step follow ?????
+3. ??? ?? copy ???? ???? editor ??? paste ???? ?? browser ??? run ???? ??????
+4. ?? topic ?? ??? ??? ??? practice tasks ?????
+5. ???-??? practice ???? — ?? ?? ???? ????? ????? ?? ????? ??!
 
-HTML Links
+---
 
-HTML Link Colors
+## ?? W3Schools ?? ?????
 
-HTML Link Bookmarks
+W3Schools ?? ???? ????? resource ?? ???? ?? interactive examples ???? ??? ?? ?? HTML tag ?? ???? explanation ????? ??? ?? ???? ?? topic ??? "Try it Yourself" ??? ????? ????? code change ???? ??? ???? ????
 
-HTML Images
+> Tip: ??? ?? ???? ??? ????, ?? W3Schools ?? ?? tag ?? search ???? ?? examples ??????
 
-HTML Image Maps
+---
 
-HTML Background Images
+## ? Prerequisites
 
-HTML Picture Element
+- ??? ?? basic computer knowledge ???? ?????
+- ?? web browser (Chrome, Firefox, Edge, Safari) ???? ?????
+- ?? text editor (Notepad, VS Code, etc.) ???? ?????
 
-HTML Favicon
+---
 
-4️⃣ HTML Page Structure
+**Ready? Start with [HTML Introduction](./01-html-introduction/README.md)!**
 
-HTML Page Title
-
-HTML Head
-
-HTML Layout
-
-HTML Responsive Web Design
-
-5️⃣ HTML Lists
-
-HTML Lists
-
-HTML Unordered Lists
-
-HTML Ordered Lists
-
-HTML Description Lists
-
-6️⃣ HTML Tables
-
-HTML Tables
-
-HTML Table Borders
-
-HTML Table Sizes
-
-HTML Table Headers
-
-HTML Table Padding & Spacing
-
-HTML Table Colspan & Rowspan
-
-HTML Table Styling
-
-HTML Table Colgroup
-
-7️⃣ HTML Blocks
-
-HTML Block & Inline Elements
-
-HTML Div Element
-
-HTML Classes
-
-HTML Id
-
-8️⃣ HTML Iframes & Scripts
-
-HTML Iframes
-
-HTML JavaScript
-
-9️⃣ HTML File & URL Handling
-
-HTML File Paths
-
-HTML URL Encoding
-
-🔟 HTML Forms
-
-HTML Forms
-
-HTML Form Attributes
-
-HTML Form Elements
-
-HTML Input Types
-
-HTML Input Attributes
-
-HTML Input Form Attributes
-
-1️⃣1️⃣ HTML Graphics
-
-HTML Canvas
-
-HTML SVG
-
-1️⃣2️⃣ HTML Media
-
-HTML Media
-
-HTML Video
-
-HTML Audio
-
-HTML Plug-ins
-
-HTML YouTube
-
-1️⃣3️⃣ HTML APIs
-
-HTML Geolocation API
-
-HTML Drag & Drop API
-
-HTML Web Storage API
-
-HTML Web Workers API
-
-HTML Server-Sent Events
-
-1️⃣4️⃣ HTML Semantic Elements
-
-HTML Semantic Elements
-
-HTML Header
-
-HTML Footer
-
-HTML Nav
-
-HTML Section
-
-HTML Article
-
-HTML Aside
-
-HTML Figure
-
-HTML Main
-
-HTML Time
-
-HTML Mark
-
-1️⃣5️⃣ HTML Accessibility
-
-HTML Accessibility
-
-HTML ARIA
-
-1️⃣6️⃣ HTML SEO
-
-HTML SEO Basics
-
-1️⃣7️⃣ HTML Best Practices
-
-HTML Style Guide
-
-HTML Entities
-
-HTML Symbols
-
-HTML Emojis
-
-HTML Charset
-
-HTML URL Encode
-
-HTML vs XHTML
-
-1️⃣8️⃣ HTML Examples
-
-HTML Examples
-
-HTML Exercises
-
-HTML Quiz
 ## W3Schools Reference
 For more examples and interactive tutorials, see W3Schools for the relevant HTML tag or concept (e.g. https://www.w3schools.com/tags/). Their explanations and try-it-yourself editor align closely with this lesson.
 
 **Hinglish:** W3Schools par har HTML tag ka detailed explanation aur try-it-yourself examples milte hain. Aap unko dekh kar practise kar sakte hain.
+
+
+
+## Practice Tasks
+
+1. Try writing a simple example related to this lesson.
+2. Change the code and see what happens.
+3. Write down 2 things you learned.
 

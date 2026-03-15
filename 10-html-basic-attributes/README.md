@@ -1,6 +1,10 @@
-# HTML Attributes
+﻿# HTML Attributes
 
-## Overview
+
+## Example
+
+Add a simple example here showing how to use the concepts in this lesson. (Replace this with actual code or explanation.)
+
 
 HTML attributes provide additional information about HTML elements.  
 Attributes are written inside the **start tag** and usually come in **name="value" pairs**.
@@ -138,13 +142,21 @@ Example
 
 ---
 
-अगर चाहो Boss, तो मैं अगला **powerful README भी बना सकता हूँ**:
+à¤…à¤—à¤° à¤šà¤¾à¤¹à¥‹ Boss, à¤¤à¥‹ à¤®à¥ˆà¤‚ à¤…à¤—à¤²à¤¾ **powerful README à¤­à¥€ à¤¬à¤¨à¤¾ à¤¸à¤•à¤¤à¤¾ à¤¹à¥‚à¤**:
 
-**“All HTML Attributes List (150+ attributes single table)”**
+**â€œAll HTML Attributes List (150+ attributes single table)â€**
 
-जो **HTML documentation के लिए बहुत strong reference बनता है GitHub repo में।**
+à¤œà¥‹ **HTML documentation à¤•à¥‡ à¤²à¤¿à¤ à¤¬à¤¹à¥à¤¤ strong reference à¤¬à¤¨à¤¤à¤¾ à¤¹à¥ˆ GitHub repo à¤®à¥‡à¤‚à¥¤**
 ## W3Schools Reference
 For more examples and interactive tutorials, see W3Schools for the relevant HTML tag or concept (e.g. https://www.w3schools.com/tags/). Their explanations and try-it-yourself editor align closely with this lesson.
 
 **Hinglish:** W3Schools par har HTML tag ka detailed explanation aur try-it-yourself examples milte hain. Aap unko dekh kar practise kar sakte hain.
+
+
+
+## Practice Tasks
+
+1. Try writing a simple example related to this lesson.
+2. Change the code and see what happens.
+3. Write down 2 things you learned.
 

@@ -1,66 +1,59 @@
-# HTML Text Formatting
+﻿# ðŸ“˜ Html Text Formatting
 
-## Overview
+> **à¤‡à¤¸ chapter à¤®à¥‡à¤‚ à¤¹à¤® à¤¸à¥€à¤–à¥‡à¤‚à¤—à¥‡ à¤•à¤¿ Html Text Formatting à¤•à¥à¤¯à¤¾ à¤¹à¥ˆ, à¤¯à¥‡ à¤•à¥ˆà¤¸à¥‡ à¤•à¤¾à¤® à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆ, à¤”à¤° à¤‡à¤¸à¥‡ practical à¤¤à¤°à¥€à¤•à¥‡ à¤¸à¥‡ à¤•à¥ˆà¤¸à¥‡ use à¤•à¤°à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤**
 
-HTML provides various elements to format text, changing its appearance or meaning. Some are presentational, others semantic.
+---
 
-**Hinglish:** HTML text ko format karne ke liye various elements provide karta hai, uski appearance ya meaning change karke. Kuch presentational hain, kuch semantic.
+## ðŸ“Œ Overview
 
-## Formatting Elements
+à¤¯à¤¹ lesson Html Text Formatting à¤•à¥‡ à¤¬à¤¾à¤°à¥‡ à¤®à¥‡à¤‚ basic concepts à¤¸à¤®à¤à¤¾à¤à¤—à¤¾ à¤”à¤° examples à¤•à¥‡ à¤œà¤°à¤¿à¤ à¤†à¤ªà¤•à¥‹ hands-on practice à¤¦à¥‡à¤—à¤¾à¥¤ à¤§à¥à¤¯à¤¾à¤¨ à¤°à¤–à¥‡à¤‚ à¤•à¤¿ à¤¯à¥‡ à¤¸à¤¿à¤°à¥à¤« à¤à¤• start à¤¹à¥ˆ â€” practice à¤•à¤°à¤¨à¥‡ à¤¸à¥‡ à¤¹à¥€ mastery à¤†à¤¤à¤¾ à¤¹à¥ˆà¥¤
 
-- `<b>` and `<strong>`: Bold text (strong has semantic meaning).
-- `<i>` and `<em>`: Italic text (em has semantic meaning).
-- `<u>`: Underlined text.
-- `<mark>`: Marked/highlighted text.
-- `<small>`: Smaller text.
-- `<del>`: Deleted text.
-- `<ins>`: Inserted text.
-- `<sub>`: Subscript.
-- `<sup>`: Superscript.
+---
 
-**Hinglish:**
-- `<b>` aur `<strong>`: Bold text (strong ka semantic meaning hai).
-- `<i>` aur `<em>`: Italic text (em ka semantic meaning hai).
-- `<u>`: Underlined text.
-- `<mark>`: Marked/highlighted text.
-- `<small>`: Smaller text.
-- `<del>`: Deleted text.
-- `<ins>`: Inserted text.
-- `<sub>`: Subscript.
-- `<sup>`: Superscript.
+## ðŸ“Œ Key Concepts
 
-## Example
+- Html Text Formatting à¤¸à¥‡ à¤¸à¤‚à¤¬à¤‚à¤§à¤¿à¤¤ à¤®à¥à¤–à¥à¤¯ points à¤•à¥‹ à¤¸à¤®à¤à¥‹
+- Semantic à¤”à¤° structured HTML à¤²à¤¿à¤–à¤¨à¤¾ à¤¸à¥€à¤–à¥‹
+- Browser à¤®à¥‡à¤‚ code à¤•à¥ˆà¤¸à¥‡ render à¤¹à¥‹à¤¤à¤¾ à¤¹à¥ˆ
+- Accessibility à¤”à¤° à¤¸à¤¹à¥€ markup à¤•à¤¾ à¤®à¤¹à¤¤à¥à¤µ
 
-```html
-<p><strong>Important</strong> text and <em>emphasized</em> text.</p>
-<p>H<sub>2</sub>O and E=mc<sup>2</sup>.</p>
-```
+---
 
-**Hinglish:** Example niche diya gaya hai, jisme different formatting elements use kiye gaye hain.
+## ðŸ§© Example
 
-## Practice Tasks
+à¤¨à¥€à¤šà¥‡ à¤à¤• basic example à¤¹à¥ˆ à¤œà¥‹ Html Text Formatting à¤¸à¥‡ à¤œà¥à¤¡à¤¼à¥‡ à¤®à¥à¤–à¥à¤¯ tags à¤•à¥‹ à¤¦à¤¿à¤–à¤¾à¤¤à¤¾ à¤¹à¥ˆ:
 
-1. Format a paragraph with different text styles.
-2. Use semantic elements where appropriate.
-3. Create a mathematical or chemical formula.
+`html
+<!-- à¤‡à¤¸ example à¤•à¥‹ à¤…à¤ªà¤¨à¥‡ editor à¤®à¥‡à¤‚ copy à¤•à¤°à¤•à¥‡ à¤šà¤²à¤¾à¤“ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Html Text Formatting Example</title>
+</head>
+<body>
+  <h1>Html Text Formatting Example</h1>
+  <p>à¤¯à¤¹ section Html Text Formatting à¤¸à¥‡ related basic example à¤¦à¤¿à¤–à¤¾à¤¤à¤¾ à¤¹à¥ˆà¥¤</p>
+</body>
+</html>
+`
 
-**Hinglish:**
-1. Ek paragraph ko different text styles se format karo.
-2. Jahan appropriate ho, semantic elements use karo.
-3. Ek mathematical ya chemical formula banao.
+---
 
-## Interview Questions
+## ðŸ§ª Practice Tasks
 
-1. What is the difference between `<b>` and `<strong>`?
-2. When should you use `<em>` instead of `<i>`?
-3. How do you create superscript and subscript text?
+1. à¤Šà¤ªà¤° à¤¦à¤¿à¤ example à¤•à¥‹ copy à¤•à¤°à¥‹ à¤”à¤° à¤…à¤ªà¤¨à¥‡ computer à¤ªà¤° index.html à¤®à¥‡à¤‚ save à¤•à¤°à¥‹à¥¤
+2. Example à¤•à¥‹ modify à¤•à¤°à¥‹ (text change à¤•à¤°à¥‹, à¤¨à¤ elements add à¤•à¤°à¥‹)à¥¤
+3. Browser à¤®à¥‡à¤‚ open à¤•à¤°à¤•à¥‡ result à¤¦à¥‡à¤–à¥‹ à¤”à¤° changes verify à¤•à¤°à¥‹à¥¤
 
-**Hinglish:**
-1. `<b>` aur `<strong>` mein kya difference hai?
-2. Kab `<em>` use karna chahiye `<i>` ke bajaye?
-3. Superscript aur subscript text kaise banate hain?
-## W3Schools Reference
-For more examples and interactive tutorials, see W3Schools for the relevant HTML tag or concept (e.g. https://www.w3schools.com/tags/). Their explanations and try-it-yourself editor align closely with this lesson.
+---
 
-**Hinglish:** W3Schools par har HTML tag ka detailed explanation aur try-it-yourself examples milte hain. Aap unko dekh kar practise kar sakte hain.
+## ðŸ“Œ W3Schools Reference
+
+W3Schools à¤ªà¤° "Html Text Formatting" à¤¯à¤¾ related topic search à¤•à¤°à¤•à¥‡ interactive examples à¤¦à¥‡à¤–à¥‹à¥¤ à¤µà¤¹à¤¾à¤‚ "Try it Yourself" editor à¤¸à¥‡ à¤†à¤ª à¤¤à¥à¤°à¤‚à¤¤ code à¤¬à¤¦à¤²à¤•à¤° output à¤¦à¥‡à¤– à¤¸à¤•à¤¤à¥‡ à¤¹à¥‹à¥¤
+
+**Hinglish:** W3Schools par "Html Text Formatting" ke examples aur explanations milte hain. Aap unko follow karke à¤œà¤²à¥à¤¦à¥€ à¤¸à¥€à¤– à¤¸à¤•à¤¤à¥‡ à¤¹à¥‹à¥¤
+
+---
 

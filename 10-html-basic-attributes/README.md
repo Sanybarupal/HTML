@@ -1,162 +1,59 @@
-﻿# HTML Attributes
+﻿# ðŸ“˜ Html Basic Attributes
 
-
-## Example
-
-Add a simple example here showing how to use the concepts in this lesson. (Replace this with actual code or explanation.)
-
-
-HTML attributes provide additional information about HTML elements.  
-Attributes are written inside the **start tag** and usually come in **name="value" pairs**.
-
-Example
-
-```html
-<p class="text">Hello World</p>
-Global Attributes
-
-These attributes can be used on almost all HTML elements.
-
-Attribute	Description
-id	Unique identifier for an element
-class	Defines one or more class names
-style	Inline CSS styling
-title	Tooltip text
-lang	Language of content
-dir	Text direction (ltr / rtl)
-hidden	Hides the element
-tabindex	Keyboard navigation order
-accesskey	Keyboard shortcut
-draggable	Enables drag and drop
-spellcheck	Enables spell checking
-contenteditable	Makes content editable
-translate	Allow translation
-data-*	Custom data attributes
-
-Example
-
-<p id="intro" class="box" title="Example text">
-Example paragraph
-</p>
-Anchor Attributes (<a>)
-Attribute	Description
-href	Link destination
-target	Where the link opens
-download	Download the linked file
-rel	Relationship between pages
-hreflang	Language of linked document
-type	MIME type of link
-
-Example
-
-<a href="https://example.com" target="_blank">
-Visit Website
-</a>
-Image Attributes (<img>)
-Attribute	Description
-src	Image source
-alt	Alternative text
-width	Image width
-height	Image height
-loading	Lazy or eager loading
-srcset	Responsive image sources
-sizes	Image display size
-
-Example
-
-<img src="image.jpg" alt="Example image" width="200" height="150">
-Form Attributes (<form>)
-Attribute	Description
-action	URL where form data is sent
-method	HTTP method (GET / POST)
-autocomplete	Enable autofill
-enctype	Form data encoding
-novalidate	Disable validation
-target	Where the response opens
-
-Example
-
-<form action="submit.php" method="post">
-Input Attributes (<input>)
-Attribute	Description
-type	Input field type
-name	Input name
-value	Default value
-placeholder	Hint text
-required	Field must be filled
-readonly	Read-only field
-disabled	Disable input
-maxlength	Maximum characters
-minlength	Minimum characters
-min	Minimum value
-max	Maximum value
-step	Step interval
-pattern	Regex validation
-autofocus	Auto focus on load
-checked	Pre-selected checkbox/radio
-multiple	Allow multiple values
-
-Example
-
-<input type="text" name="username" placeholder="Enter name" required>
-Table Attributes
-Attribute	Description
-colspan	Merge table columns
-rowspan	Merge table rows
-headers	Associate with header cells
-scope	Defines header scope
-
-Example
-
-<td colspan="2">Merged Cell</td>
-Script Attributes (<script>)
-Attribute	Description
-src	Script file location
-async	Load script asynchronously
-defer	Execute after HTML parsing
-type	Script type
-crossorigin	Cross-origin request
-
-Example
-
-<script src="app.js" defer></script>
-Media Attributes (<video> / <audio>)
-Attribute	Description
-src	Media source
-controls	Display controls
-autoplay	Auto play media
-loop	Repeat playback
-muted	Mute audio
-preload	Preload media
-poster	Video thumbnail image
-
-Example
-
-<video src="movie.mp4" controls></video>
-Syntax
-<tag attribute="value">
-
-Example
-
-<a href="https://google.com">Google</a>
+> **à¤‡à¤¸ chapter à¤®à¥‡à¤‚ à¤¹à¤® à¤¸à¥€à¤–à¥‡à¤‚à¤—à¥‡ à¤•à¤¿ Html Basic Attributes à¤•à¥à¤¯à¤¾ à¤¹à¥ˆ, à¤¯à¥‡ à¤•à¥ˆà¤¸à¥‡ à¤•à¤¾à¤® à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆ, à¤”à¤° à¤‡à¤¸à¥‡ practical à¤¤à¤°à¥€à¤•à¥‡ à¤¸à¥‡ à¤•à¥ˆà¤¸à¥‡ use à¤•à¤°à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤**
 
 ---
 
-à¤…à¤—à¤° à¤šà¤¾à¤¹à¥‹ Boss, à¤¤à¥‹ à¤®à¥ˆà¤‚ à¤…à¤—à¤²à¤¾ **powerful README à¤­à¥€ à¤¬à¤¨à¤¾ à¤¸à¤•à¤¤à¤¾ à¤¹à¥‚à¤**:
+## ðŸ“Œ Overview
 
-**â€œAll HTML Attributes List (150+ attributes single table)â€**
+à¤¯à¤¹ lesson Html Basic Attributes à¤•à¥‡ à¤¬à¤¾à¤°à¥‡ à¤®à¥‡à¤‚ basic concepts à¤¸à¤®à¤à¤¾à¤à¤—à¤¾ à¤”à¤° examples à¤•à¥‡ à¤œà¤°à¤¿à¤ à¤†à¤ªà¤•à¥‹ hands-on practice à¤¦à¥‡à¤—à¤¾à¥¤ à¤§à¥à¤¯à¤¾à¤¨ à¤°à¤–à¥‡à¤‚ à¤•à¤¿ à¤¯à¥‡ à¤¸à¤¿à¤°à¥à¤« à¤à¤• start à¤¹à¥ˆ â€” practice à¤•à¤°à¤¨à¥‡ à¤¸à¥‡ à¤¹à¥€ mastery à¤†à¤¤à¤¾ à¤¹à¥ˆà¥¤
 
-à¤œà¥‹ **HTML documentation à¤•à¥‡ à¤²à¤¿à¤ à¤¬à¤¹à¥à¤¤ strong reference à¤¬à¤¨à¤¤à¤¾ à¤¹à¥ˆ GitHub repo à¤®à¥‡à¤‚à¥¤**
-## W3Schools Reference
-For more examples and interactive tutorials, see W3Schools for the relevant HTML tag or concept (e.g. https://www.w3schools.com/tags/). Their explanations and try-it-yourself editor align closely with this lesson.
+---
 
-**Hinglish:** W3Schools par har HTML tag ka detailed explanation aur try-it-yourself examples milte hain. Aap unko dekh kar practise kar sakte hain.
+## ðŸ“Œ Key Concepts
 
+- Html Basic Attributes à¤¸à¥‡ à¤¸à¤‚à¤¬à¤‚à¤§à¤¿à¤¤ à¤®à¥à¤–à¥à¤¯ points à¤•à¥‹ à¤¸à¤®à¤à¥‹
+- Semantic à¤”à¤° structured HTML à¤²à¤¿à¤–à¤¨à¤¾ à¤¸à¥€à¤–à¥‹
+- Browser à¤®à¥‡à¤‚ code à¤•à¥ˆà¤¸à¥‡ render à¤¹à¥‹à¤¤à¤¾ à¤¹à¥ˆ
+- Accessibility à¤”à¤° à¤¸à¤¹à¥€ markup à¤•à¤¾ à¤®à¤¹à¤¤à¥à¤µ
 
+---
 
-## Practice Tasks
+## ðŸ§© Example
 
-1. Try writing a simple example related to this lesson.
-2. Change the code and see what happens.
-3. Write down 2 things you learned.
+à¤¨à¥€à¤šà¥‡ à¤à¤• basic example à¤¹à¥ˆ à¤œà¥‹ Html Basic Attributes à¤¸à¥‡ à¤œà¥à¤¡à¤¼à¥‡ à¤®à¥à¤–à¥à¤¯ tags à¤•à¥‹ à¤¦à¤¿à¤–à¤¾à¤¤à¤¾ à¤¹à¥ˆ:
+
+`html
+<!-- à¤‡à¤¸ example à¤•à¥‹ à¤…à¤ªà¤¨à¥‡ editor à¤®à¥‡à¤‚ copy à¤•à¤°à¤•à¥‡ à¤šà¤²à¤¾à¤“ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Html Basic Attributes Example</title>
+</head>
+<body>
+  <h1>Html Basic Attributes Example</h1>
+  <p>à¤¯à¤¹ section Html Basic Attributes à¤¸à¥‡ related basic example à¤¦à¤¿à¤–à¤¾à¤¤à¤¾ à¤¹à¥ˆà¥¤</p>
+</body>
+</html>
+`
+
+---
+
+## ðŸ§ª Practice Tasks
+
+1. à¤Šà¤ªà¤° à¤¦à¤¿à¤ example à¤•à¥‹ copy à¤•à¤°à¥‹ à¤”à¤° à¤…à¤ªà¤¨à¥‡ computer à¤ªà¤° index.html à¤®à¥‡à¤‚ save à¤•à¤°à¥‹à¥¤
+2. Example à¤•à¥‹ modify à¤•à¤°à¥‹ (text change à¤•à¤°à¥‹, à¤¨à¤ elements add à¤•à¤°à¥‹)à¥¤
+3. Browser à¤®à¥‡à¤‚ open à¤•à¤°à¤•à¥‡ result à¤¦à¥‡à¤–à¥‹ à¤”à¤° changes verify à¤•à¤°à¥‹à¥¤
+
+---
+
+## ðŸ“Œ W3Schools Reference
+
+W3Schools à¤ªà¤° "Html Basic Attributes" à¤¯à¤¾ related topic search à¤•à¤°à¤•à¥‡ interactive examples à¤¦à¥‡à¤–à¥‹à¥¤ à¤µà¤¹à¤¾à¤‚ "Try it Yourself" editor à¤¸à¥‡ à¤†à¤ª à¤¤à¥à¤°à¤‚à¤¤ code à¤¬à¤¦à¤²à¤•à¤° output à¤¦à¥‡à¤– à¤¸à¤•à¤¤à¥‡ à¤¹à¥‹à¥¤
+
+**Hinglish:** W3Schools par "Html Basic Attributes" ke examples aur explanations milte hain. Aap unko follow karke à¤œà¤²à¥à¤¦à¥€ à¤¸à¥€à¤– à¤¸à¤•à¤¤à¥‡ à¤¹à¥‹à¥¤
+
+---
 

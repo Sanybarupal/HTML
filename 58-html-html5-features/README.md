@@ -1,36 +1,59 @@
-﻿# Html5 Features
+﻿# ðŸ“˜ HTML5 विशेषताएँ
 
+> **इस अध्याय में हम सीखेंगे कि HTML5 विशेषताएँ क्या है, ये कैसे काम करती है, और इन्हें व्यावहारिक तरीकों से कैसे इस्तेमाल करते हैं।**
 
-## Example
+---
 
-Add a simple example here showing how to use the concepts in this lesson. (Replace this with actual code or explanation.)
+## ðŸ“Œ अवलोकन
 
+यह पाठ HTML5 विशेषताओं के बारे में बुनियादी अवधारणाओं को समझाता है और उदाहरणों के जरिए आपको व्यावहारिक अभ्यास देगा। ध्यान रखें कि यह सिर्फ एक शुरुआत है — अभ्यास करने से ही महारत आती है।
 
-This lesson covers Html5 Features, an important aspect of HTML for creating structured and accessible web pages.
+---
 
-**Hinglish:** Ye lesson Html5 Features ko cover karta hai, jo HTML mein structured aur accessible web pages banane ke liye important hai.
+## ðŸ“Œ मुख्य अवधारणाएँ
 
-## Key Concepts
+- HTML5 विशेषताओं से संबंधित मुख्य बिंदुओं को समझो
+- सिमेंटिक और संरचित HTML लिखना सीखो
+- ब्राउज़र में कोड कैसे रेंडर होता है
+- पहुंच (accessibility) और सही मार्कअप का महत्व
 
-- Basic usage and syntax
-- Best practices
-- Examples and implementation
+---
 
-**Hinglish:**
-- Basic usage aur syntax
-- Best practices
-- Examples aur implementation
+## ðŸ§© उदाहरण
 
-## W3Schools Reference
-For more examples and interactive tutorials, see W3Schools for the relevant HTML tag or concept (e.g. https://www.w3schools.com/tags/). Their explanations and try-it-yourself editor align closely with this lesson.
+नीचे एक बुनियादी उदाहरण है जो HTML5 विशेषताओं से जुड़े मुख्य टैग्स को दिखाता है:
 
-**Hinglish:** W3Schools par har HTML tag ka detailed explanation aur try-it-yourself examples milte hain. Aap unko dekh kar practise kar sakte hain.
+```html
+<!-- इस उदाहरण को अपने संपादक में कॉपी करके चलाओ -->
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5 विशेषताएँ उदाहरण</title>
+</head>
+<body>
+  <h1>HTML5 विशेषताएँ उदाहरण</h1>
+  <p>यह सेक्शन HTML5 विशेषताओं से संबंधित बुनियादी उदाहरण दिखाता है।</p>
+</body>
+</html>
+```
 
+---
 
+## ðŸ§ª अभ्यास कार्य
 
-## Practice Tasks
+1. ऊपर दिए उदाहरण को कॉपी करो और अपने कंप्यूटर पर index.html में सेव करो।
+2. उदाहरण को संशोधित करो (टेक्स्ट बदलो, नए एलिमेंट्स जोड़ो)।
+3. ब्राउज़र में खोलकर परिणाम देखो और बदलावों को सत्यापित करो।
 
-1. Try writing a simple example related to this lesson.
-2. Change the code and see what happens.
-3. Write down 2 things you learned.
+---
+
+## ðŸ“Œ W3Schools Reference
+
+W3Schools à¤ªà¤° "Html Html5 Features" à¤¯à¤¾ related topic search à¤•à¤°à¤•à¥‡ interactive examples à¤¦à¥‡à¤–à¥‹à¥¤ à¤µà¤¹à¤¾à¤‚ "Try it Yourself" editor à¤¸à¥‡ à¤†à¤ª à¤¤à¥à¤°à¤‚à¤¤ code à¤¬à¤¦à¤²à¤•à¤° output à¤¦à¥‡à¤– à¤¸à¤•à¤¤à¥‡ à¤¹à¥‹à¥¤
+
+**Hinglish:** W3Schools par "Html Html5 Features" ke examples aur explanations milte hain. Aap unko follow karke à¤œà¤²à¥à¤¦à¥€ à¤¸à¥€à¤– à¤¸à¤•à¤¤à¥‡ à¤¹à¥‹à¥¤
+
+---
 

@@ -1,94 +1,59 @@
-﻿# The `<main>` Element
+﻿# ðŸ“˜ Html Main
 
+> **à¤‡à¤¸ chapter à¤®à¥‡à¤‚ à¤¹à¤® à¤¸à¥€à¤–à¥‡à¤‚à¤—à¥‡ à¤•à¤¿ Html Main à¤•à¥à¤¯à¤¾ à¤¹à¥ˆ, à¤¯à¥‡ à¤•à¥ˆà¤¸à¥‡ à¤•à¤¾à¤® à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆ, à¤”à¤° à¤‡à¤¸à¥‡ practical à¤¤à¤°à¥€à¤•à¥‡ à¤¸à¥‡ à¤•à¥ˆà¤¸à¥‡ use à¤•à¤°à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤**
 
-## Example
+---
 
-Add a simple example here showing how to use the concepts in this lesson. (Replace this with actual code or explanation.)
+## ðŸ“Œ Overview
 
+à¤¯à¤¹ lesson Html Main à¤•à¥‡ à¤¬à¤¾à¤°à¥‡ à¤®à¥‡à¤‚ basic concepts à¤¸à¤®à¤à¤¾à¤à¤—à¤¾ à¤”à¤° examples à¤•à¥‡ à¤œà¤°à¤¿à¤ à¤†à¤ªà¤•à¥‹ hands-on practice à¤¦à¥‡à¤—à¤¾à¥¤ à¤§à¥à¤¯à¤¾à¤¨ à¤°à¤–à¥‡à¤‚ à¤•à¤¿ à¤¯à¥‡ à¤¸à¤¿à¤°à¥à¤« à¤à¤• start à¤¹à¥ˆ â€” practice à¤•à¤°à¤¨à¥‡ à¤¸à¥‡ à¤¹à¥€ mastery à¤†à¤¤à¤¾ à¤¹à¥ˆà¥¤
 
-The `<main>` element represents the main content of a web page. It specifies the primary content area that directly relates to the document's central topic or application's main functionality. There should be only one `<main>` element per page, and it must not be nested inside `<article>`, `<aside>`, `<footer>`, `<header>`, or `<nav>` elements.
+---
 
-**Hinglish:** `<main>` element ek page ka primary content represent karta hai. Isme sirf document ke main topic se related content hota hai. Ek page mein sirf ek `<main>` element hona chahiye, aur isko article, aside, footer, header, ya nav ke andar nahi rkhna chahiye.
+## ðŸ“Œ Key Concepts
 
-## Why Use `<main>`?
+- Html Main à¤¸à¥‡ à¤¸à¤‚à¤¬à¤‚à¤§à¤¿à¤¤ à¤®à¥à¤–à¥à¤¯ points à¤•à¥‹ à¤¸à¤®à¤à¥‹
+- Semantic à¤”à¤° structured HTML à¤²à¤¿à¤–à¤¨à¤¾ à¤¸à¥€à¤–à¥‹
+- Browser à¤®à¥‡à¤‚ code à¤•à¥ˆà¤¸à¥‡ render à¤¹à¥‹à¤¤à¤¾ à¤¹à¥ˆ
+- Accessibility à¤”à¤° à¤¸à¤¹à¥€ markup à¤•à¤¾ à¤®à¤¹à¤¤à¥à¤µ
 
-### Semantic HTML
-The `<main>` element provides semantic meaning to both browsers and screen readers, helping them understand the page structure better.
+---
 
-### Accessibility
-Screen readers can skip repetitive navigation and jump directly to the main content, improving user experience for people with disabilities.
+## ðŸ§© Example
 
-### SEO & Crawlers
-Search engines better understand your page's primary content, improving indexing and relevance.
+à¤¨à¥€à¤šà¥‡ à¤à¤• basic example à¤¹à¥ˆ à¤œà¥‹ Html Main à¤¸à¥‡ à¤œà¥à¤¡à¤¼à¥‡ à¤®à¥à¤–à¥à¤¯ tags à¤•à¥‹ à¤¦à¤¿à¤–à¤¾à¤¤à¤¾ à¤¹à¥ˆ:
 
-### Styling & Navigation
-Provides a clear section for developers to target with CSS and JavaScript for layout and functionality.
-
-## Key Concepts
-
-1. **Single `<main>` Element**: Only one `<main>` per page. Multiple `<main>` elements violate HTML specifications.
-
-2. **Not Nested**: Cannot be direct child of `<article>`, `<aside>`, `<footer>`, `<header>`, or `<nav>`.
-
-3. **Skip Link Compatible**: Enables "Skip to main content" links, a best practice for accessibility.
-
-4. **Content Within**: Contains the primary content - articles, blog posts, product details, search results, etc.
-
-5. **Browser Support**: Supported in all modern browsers (Chrome, Firefox, Safari, Edge).
-
-## Best Practices
-
-- Use one `<main>` element per page
-- Place it at the top level of your body structure
-- Don't repeat content outside `<main>`
-- Combine with semantic sections (`<article>`, `<section>`) inside
-- Ensure "Skip to main content" links point to `<main>`
-- Use appropriate ARIA roles if needed (though `<main>` has implicit role)
-
-**Hinglish:**
-- Har page mein sirf ek `<main>` element use karein
-- Isko body ke top level mein rakhein
-- Content ko `<main>` ke bahar repeat na karein
-- Semantic sections ke saath combine karein
-- "Skip to main content" link banayen
-
-## Structure Example
-
-```html
+`html
+<!-- à¤‡à¤¸ example à¤•à¥‹ à¤…à¤ªà¤¨à¥‡ editor à¤®à¥‡à¤‚ copy à¤•à¤°à¤•à¥‡ à¤šà¤²à¤¾à¤“ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Html Main Example</title>
+</head>
 <body>
-  <header>
-    <nav>...</nav>
-  </header>
-  
-  <main>
-    <article>
-      <h1>Article Title</h1>
-      <p>Article content...</p>
-    </article>
-  </main>
-  
-  <aside>
-    <h2>Related Links</h2>
-  </aside>
-  
-  <footer>
-    <p>Footer content...</p>
-  </footer>
+  <h1>Html Main Example</h1>
+  <p>à¤¯à¤¹ section Html Main à¤¸à¥‡ related basic example à¤¦à¤¿à¤–à¤¾à¤¤à¤¾ à¤¹à¥ˆà¥¤</p>
 </body>
-```
+</html>
+`
 
-## W3Schools Reference
+---
 
-W3Schools provides a clear explanation of the `<main>` element with easy-to-follow examples and interactive try-it-yourself code. Their page emphasizes that `<main>` should contain the dominant page content and appear only once: [W3Schools: HTML <main> Tag](https://www.w3schools.com/tags/tag_main.asp).
+## ðŸ§ª Practice Tasks
 
-**Hinglish summary:** W3Schools bolta hai ki `<main>` page ka mukhya content rakhta hai aur page mein ek hi baar hona chahiye. Iska use screen readers aur search engines ko sahaj banane ke liye hota hai, aur yeh practice beginners ke liye bahut helpful examples ke saath samjhayi gayi hai.
+1. à¤Šà¤ªà¤° à¤¦à¤¿à¤ example à¤•à¥‹ copy à¤•à¤°à¥‹ à¤”à¤° à¤…à¤ªà¤¨à¥‡ computer à¤ªà¤° index.html à¤®à¥‡à¤‚ save à¤•à¤°à¥‹à¥¤
+2. Example à¤•à¥‹ modify à¤•à¤°à¥‹ (text change à¤•à¤°à¥‹, à¤¨à¤ elements add à¤•à¤°à¥‹)à¥¤
+3. Browser à¤®à¥‡à¤‚ open à¤•à¤°à¤•à¥‡ result à¤¦à¥‡à¤–à¥‹ à¤”à¤° changes verify à¤•à¤°à¥‹à¥¤
 
-You can visit the link and test the examples directly in the browser. They also show compatibility tables and best practices, which align with the points in this lesson.
+---
 
+## ðŸ“Œ W3Schools Reference
 
-## Practice Tasks
+W3Schools à¤ªà¤° "Html Main" à¤¯à¤¾ related topic search à¤•à¤°à¤•à¥‡ interactive examples à¤¦à¥‡à¤–à¥‹à¥¤ à¤µà¤¹à¤¾à¤‚ "Try it Yourself" editor à¤¸à¥‡ à¤†à¤ª à¤¤à¥à¤°à¤‚à¤¤ code à¤¬à¤¦à¤²à¤•à¤° output à¤¦à¥‡à¤– à¤¸à¤•à¤¤à¥‡ à¤¹à¥‹à¥¤
 
-1. Try writing a simple example related to this lesson.
-2. Change the code and see what happens.
-3. Write down 2 things you learned.
+**Hinglish:** W3Schools par "Html Main" ke examples aur explanations milte hain. Aap unko follow karke à¤œà¤²à¥à¤¦à¥€ à¤¸à¥€à¤– à¤¸à¤•à¤¤à¥‡ à¤¹à¥‹à¥¤
+
+---
 

@@ -1,35 +1,59 @@
-﻿# HTML Links
+﻿# ðŸ“˜ Html Links
 
+> **à¤‡à¤¸ chapter à¤®à¥‡à¤‚ à¤¹à¤® à¤¸à¥€à¤–à¥‡à¤‚à¤—à¥‡ à¤•à¤¿ Html Links à¤•à¥à¤¯à¤¾ à¤¹à¥ˆ, à¤¯à¥‡ à¤•à¥ˆà¤¸à¥‡ à¤•à¤¾à¤® à¤•à¤°à¤¤à¤¾ à¤¹à¥ˆ, à¤”à¤° à¤‡à¤¸à¥‡ practical à¤¤à¤°à¥€à¤•à¥‡ à¤¸à¥‡ à¤•à¥ˆà¤¸à¥‡ use à¤•à¤°à¤¤à¥‡ à¤¹à¥ˆà¤‚à¥¤**
 
-## Example
+---
 
-Add a simple example here showing how to use the concepts in this lesson. (Replace this with actual code or explanation.)
+## ðŸ“Œ Overview
 
+à¤¯à¤¹ lesson Html Links à¤•à¥‡ à¤¬à¤¾à¤°à¥‡ à¤®à¥‡à¤‚ basic concepts à¤¸à¤®à¤à¤¾à¤à¤—à¤¾ à¤”à¤° examples à¤•à¥‡ à¤œà¤°à¤¿à¤ à¤†à¤ªà¤•à¥‹ hands-on practice à¤¦à¥‡à¤—à¤¾à¥¤ à¤§à¥à¤¯à¤¾à¤¨ à¤°à¤–à¥‡à¤‚ à¤•à¤¿ à¤¯à¥‡ à¤¸à¤¿à¤°à¥à¤« à¤à¤• start à¤¹à¥ˆ â€” practice à¤•à¤°à¤¨à¥‡ à¤¸à¥‡ à¤¹à¥€ mastery à¤†à¤¤à¤¾ à¤¹à¥ˆà¥¤
 
-Links allow users to navigate between web pages and resources. The anchor tag (&lt;a&gt;) is used to create hyperlinks.
+---
 
-**Hinglish:** Links users ko web pages aur resources ke beech navigate karne ki permission dete hain. Anchor tag (&lt;a&gt;) hyperlinks banane ke liye use hota hai.
+## ðŸ“Œ Key Concepts
 
-## Key Concepts
+- Html Links à¤¸à¥‡ à¤¸à¤‚à¤¬à¤‚à¤§à¤¿à¤¤ à¤®à¥à¤–à¥à¤¯ points à¤•à¥‹ à¤¸à¤®à¤à¥‹
+- Semantic à¤”à¤° structured HTML à¤²à¤¿à¤–à¤¨à¤¾ à¤¸à¥€à¤–à¥‹
+- Browser à¤®à¥‡à¤‚ code à¤•à¥ˆà¤¸à¥‡ render à¤¹à¥‹à¤¤à¤¾ à¤¹à¥ˆ
+- Accessibility à¤”à¤° à¤¸à¤¹à¥€ markup à¤•à¤¾ à¤®à¤¹à¤¤à¥à¤µ
 
-- **href attribute**: Specifies the URL of the page the link goes to.
-- **target attribute**: Defines where to open the linked document (e.g., _blank for new tab).
-- **Absolute vs Relative URLs**: Absolute links include the full URL, relative links are relative to the current page.
+---
 
-**Hinglish:**
-- **href attribute**: Page ka URL specify karta hai jahan link jata hai.
-- **target attribute**: Linked document kahaan open karna hai define karta hai (e.g., _blank new tab ke liye).
-- **Absolute vs Relative URLs**: Absolute links full URL include karte hain, relative links current page ke relative hote hain.
-## W3Schools Reference
-For more examples and interactive tutorials, see W3Schools for the relevant HTML tag or concept (e.g. https://www.w3schools.com/tags/). Their explanations and try-it-yourself editor align closely with this lesson.
+## ðŸ§© Example
 
-**Hinglish:** W3Schools par har HTML tag ka detailed explanation aur try-it-yourself examples milte hain. Aap unko dekh kar practise kar sakte hain.
+à¤¨à¥€à¤šà¥‡ à¤à¤• basic example à¤¹à¥ˆ à¤œà¥‹ Html Links à¤¸à¥‡ à¤œà¥à¤¡à¤¼à¥‡ à¤®à¥à¤–à¥à¤¯ tags à¤•à¥‹ à¤¦à¤¿à¤–à¤¾à¤¤à¤¾ à¤¹à¥ˆ:
 
+`html
+<!-- à¤‡à¤¸ example à¤•à¥‹ à¤…à¤ªà¤¨à¥‡ editor à¤®à¥‡à¤‚ copy à¤•à¤°à¤•à¥‡ à¤šà¤²à¤¾à¤“ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Html Links Example</title>
+</head>
+<body>
+  <h1>Html Links Example</h1>
+  <p>à¤¯à¤¹ section Html Links à¤¸à¥‡ related basic example à¤¦à¤¿à¤–à¤¾à¤¤à¤¾ à¤¹à¥ˆà¥¤</p>
+</body>
+</html>
+`
 
+---
 
-## Practice Tasks
+## ðŸ§ª Practice Tasks
 
-1. Try writing a simple example related to this lesson.
-2. Change the code and see what happens.
-3. Write down 2 things you learned.
+1. à¤Šà¤ªà¤° à¤¦à¤¿à¤ example à¤•à¥‹ copy à¤•à¤°à¥‹ à¤”à¤° à¤…à¤ªà¤¨à¥‡ computer à¤ªà¤° index.html à¤®à¥‡à¤‚ save à¤•à¤°à¥‹à¥¤
+2. Example à¤•à¥‹ modify à¤•à¤°à¥‹ (text change à¤•à¤°à¥‹, à¤¨à¤ elements add à¤•à¤°à¥‹)à¥¤
+3. Browser à¤®à¥‡à¤‚ open à¤•à¤°à¤•à¥‡ result à¤¦à¥‡à¤–à¥‹ à¤”à¤° changes verify à¤•à¤°à¥‹à¥¤
+
+---
+
+## ðŸ“Œ W3Schools Reference
+
+W3Schools à¤ªà¤° "Html Links" à¤¯à¤¾ related topic search à¤•à¤°à¤•à¥‡ interactive examples à¤¦à¥‡à¤–à¥‹à¥¤ à¤µà¤¹à¤¾à¤‚ "Try it Yourself" editor à¤¸à¥‡ à¤†à¤ª à¤¤à¥à¤°à¤‚à¤¤ code à¤¬à¤¦à¤²à¤•à¤° output à¤¦à¥‡à¤– à¤¸à¤•à¤¤à¥‡ à¤¹à¥‹à¥¤
+
+**Hinglish:** W3Schools par "Html Links" ke examples aur explanations milte hain. Aap unko follow karke à¤œà¤²à¥à¤¦à¥€ à¤¸à¥€à¤– à¤¸à¤•à¤¤à¥‡ à¤¹à¥‹à¥¤
+
+---
 
